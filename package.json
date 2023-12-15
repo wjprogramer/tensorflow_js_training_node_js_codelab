@@ -1,0 +1,52 @@
+{
+  "name": "tensorflow_js_training_node_js_codelab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjprogramer/tensorflow_js_training_node_js_codelab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjprogramer/tensorflow_js_training_node_js_codelab/issues"
+  },
+  "homepage": "https://github.com/wjprogramer/tensorflow_js_training_node_js_codelab#readme",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.3",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/crypto-js": "^4.1.1",
+    "@types/ejs-locals": "^0.0.32",
+    "@types/express": "^4.17.15",
+    "@types/multer": "^1.4.11",
+    "@types/pg": "^8.6.6",
+    "@types/sha256": "^0.2.0",
+    "@types/uuid": "^9.0.7",
+    "axios": "^1.2.2",
+    "better-sqlite3": "^8.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.18.2",
+    "sha256": "^0.2.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.1",
+    "typescript": "^4.9.4"
+  }
+}
